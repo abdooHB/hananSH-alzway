@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>مجموع الطالب</title>
+    
+    <style type="text/css">
+        h1{
+            color: rgb(190, 117, 117);
+            text-align: center;
+        }
+        h2{
+            text-align: center;
+            color: chocolate;
+        }
+    </style>
+</head>
+
+
+<body>
+    <h1>برنامج معرفة هل الطالب ناجح او لا</h1>
+
+
+    <script type="text/javascript">
+            var sum = window.prompt("ادخلي درجتك حنان😌");
+            
+
+            if( sum  >= 85 && sum <=100) {
+                document.write("<h2>هدا الطالب سوس 🤓 </h2>");
+
+                alert("🥰بالتوفيق في مسيرتك العلمية")
+            }
+            
+            if( sum  >= 75 && sum <85) {
+                document.write("<h2> 😉هذا الطالب جيد جدا </h2>");
+            }
+            
+            if( sum  >= 65 && sum < 75) {
+                document.write("<h2> 🙂هذا الطالب جيد </h2>");
+            }
+            
+            if( sum  >= 50 && sum < 65) {
+                document.write("<h2> 🤫هذا الطالب مقبول </h2>");
+            }
+            
+            if( sum <50) {
+                document.write("<h2> هدا الطالب يحتاج جريده خضره 😂 </h2>");
+            }
+
+            if(sum > 100 ){
+                alert("هذه الدرجة غير مدرجة")
+            }
+            if(sum < 0 ){
+                alert("هذه الدرجة غير مدرجة")
+            }
+    </script>
+
+
+</body>
+
+
+</html>
